@@ -1,273 +1,158 @@
-# Awesome-Soap-Web-Services-API
+# 🚀 Awesome SOAP Web Services & API
 
-## Top SOAP Web Services API Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Soap-Web-Services-API/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Soap-Web-Services-API?style=flat-square" alt="Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Soap-Web-Services-API/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Soap-Web-Services-API?style=flat-square" alt="Forks"/></a> <a href="https://github.com/ishandutta2007/Awesome-Soap-Web-Services-API/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Soap-Web-Services-API?style=flat-square" alt="Issues"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+<p terminal="true" align="center">
+  <img src="assets/banner.svg" alt="Awesome SOAP Web Services & API Banner" width="100%" />
+</p>
 
+## 📌 Top SOAP Web Services API Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**Curated List of Enterprise SaaS Platforms, Financial Messaging APIs & Open-Source GitHub Tooling**
 
-*Focused on SOAP Protocol Implementation, WSDL Tooling & Self-Hosted Web Service Frameworks*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial SOAP API platforms** and **open-source projects** that implement the SOAP protocol, generate WSDL-based clients and servers, and enable integration with legacy enterprise systems — from financial messaging and logistics to telecom and ERP.
-
-
-
-**Examples** include Salesforce SOAP API, PayPal SOAP API, eBay SOAP API, FedEx Web Services, UPS Developer Kit, Sabre Web Services, Amadeus SOAP API, Workday SOAP API, NetSuite SuiteTalk, and SAP NetWeaver SOAP (the category leaders).
-
-
-
-**Open-source emphasis**: SOAP web services remain critical for enterprise integration despite the rise of REST. **Apache CXF** leads as the most comprehensive open-source services framework with full WS-* support including WS-Security, WS-Addressing, and WS-ReliableMessaging . **Spring Web Services** delivers contract-first SOAP development with Spring ecosystem integration . **Zeep** provides a fast, modern Python SOAP client with WSDL introspection . **gSOAP** delivers C/C++ XML data bindings for high-performance SOAP services . **Apache Axis2** provides a modular SOAP engine with hot deployment and REST support . **node-soap** brings SOAP client and server capabilities to Node.js . This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Salesforce SOAP API](https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm)**  
-
-  **Salesforce's SOAP-based API** — enterprise integration with full metadata access, bulk operations, and WSDL-based client generation. **Best for Salesforce integrations requiring SOAP**.
-
-
-
-- **[PayPal SOAP API](https://developer.paypal.com/)**  
-
-  **PayPal's legacy SOAP API** — payment processing, recurring billing, and transaction management. **Best for legacy PayPal integrations**.
-
-
-
-- **[FedEx Web Services](https://developer.fedex.com/)**  
-
-  **FedEx's SOAP-based shipping API** — rate quotes, shipping labels, tracking, and pickup scheduling. **Best for logistics integration with FedEx**.
-
-
-
-- **[UPS Developer Kit](https://developer.ups.com/)**  
-
-  **UPS's SOAP API** — shipping, rating, tracking, and address validation. **Best for logistics integration with UPS**.
-
-
-
-- **[Sabre Web Services](https://developer.sabre.com/)**  
-
-  **Sabre's SOAP APIs** — travel booking, flight availability, and reservation management. **Best for travel industry integration**.
-
-
-
-- **[Amadeus SOAP API](https://developers.amadeus.com/)**  
-
-  **Amadeus's SOAP APIs** — flight search, booking, and travel management. **Best for travel industry integration**.
-
-
-
-- **[Workday SOAP API](https://community.workday.com/)**  
-
-  **Workday's SOAP-based web services** — HR, payroll, and financial data integration. **Best for Workday integrations**.
-
-
-
-- **[NetSuite SuiteTalk](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/)**  
-
-  **NetSuite's SOAP-based web services** — ERP data integration with full record access. **Best for NetSuite integrations**.
-
-
-
-- **[SAP NetWeaver SOAP](https://help.sap.com/)**  
-
-  **SAP's SOAP-based web services** — enterprise integration with SAP systems. **Best for SAP integrations**.
-
-
-
-- **[eBay SOAP API](https://developer.ebay.com/)**  
-
-  **eBay's legacy SOAP API** — listing management, order processing, and seller tools. **Best for legacy eBay integrations**.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Java SOAP Frameworks
-
-
-
-- **[Apache CXF](https://github.com/apache/cxf)**  
-
-  **The most comprehensive open-source services framework**, Apache-2.0 licensed with **active development** (4.1.1 released March 2025) . **Supports SOAP, REST, XML/HTTP, and CORBA** with pluggable transports (HTTP, JMS, JBI) . **Full WS-* standards support**: WS-I Basic Profile, WSDL, WS-Addressing, WS-Policy, WS-ReliableMessaging, WS-Security, WS-SecurityPolicy, WS-SecureConversation, and WS-Trust . **JAX-WS and JAX-RS frontends** with code-first and contract-first development . **Spring XML configuration** and Maven plugin integration . **The de facto enterprise SOAP framework** — used by thousands of organizations . **Best for enterprise SOAP and WS-* services**.
-
-
-
-- **[Spring Web Services](https://github.com/spring-projects/spring-ws)**  
-
-  **Contract-first SOAP service development**, Apache-2.0 licensed . **Document-driven web services** with WS-I Basic Profile compliance . **Powerful mappings** — distribute requests by payload, SOAP Action header, or XPath expression . **Supports JAXB, Castor, XMLBeans, JiBX, and XStream** for marshalling . **WS-Security integration with Spring Security** — sign, encrypt, and authenticate SOAP messages . **Reuses Spring expertise** — Spring application contexts for all configuration . **Best for Spring-based SOAP services**.
-
-
-
-- **[Apache Axis2](https://github.com/apache/axis2-java)**  
-
-  **The successor to Apache Axis SOAP stack**, Apache-2.0 licensed . **SOAP 1.1 and 1.2 support** with integrated REST/POX support . **Hot deployment** — add services without server shutdown . **AXIOM object model** for high-performance XML processing . **Asynchronous web services** with non-blocking clients and transports . **WSDL 1.1 and 2.0 support** for stub generation . **Best for high-performance SOAP engines**.
-
-
-
-### Python SOAP Clients
-
-
-
-- **[Zeep](https://github.com/mvantellingen/python-zeep)**  
-
-  **Fast and modern Python SOAP client**, MIT licensed . **WSDL introspection** — inspects WSDL documents and generates code for services and types . **SOAP 1.1 and 1.2 support** with HTTP bindings . **WS-Addressing, WSSE (UsernameToken/x.509 signing), and asyncio via httpx** . **Built on lxml and requests** for performance . **Python 3.7-3.11 and PyPy compatible** . **Best for Python SOAP integrations**.
-
-
-
-### C/C++ SOAP Toolkits
-
-
-
-- **[gSOAP](https://github.com/Genivia/gsoap)**  
-
-  **The most comprehensive C/C++ SOAP toolkit**, commercial with open-source availability . **XML to C/C++ language binding** for SOAP/XML web services . **wsdl2h and soapcpp2 tools** for WSDL/XSD translation and code generation . **High-performance, portable, and platform-independent** generated code . **Active development** with regular releases (2.8.135 as of September 2025) . **Best for high-performance C/C++ SOAP services**.
-
-
-
-- **[Apache Axis2/C](https://github.com/apache/axis2-c)**  
-
-  **C implementation of Axis2 architecture**, Apache-2.0 licensed . **SOAP 1.1 and 1.2 support** with REST/POX support . **MTOM/XOP support** for binary attachments . **Portable and embeddable** for legacy system integration . **WS-Addressing, WS-Policy, and WS-SecurityPolicy** built in . **Best for embedded and legacy C SOAP services**.
-
-
-
-### JavaScript/Node.js SOAP
-
-
-
-- **[node-soap](https://github.com/vpulim/node-soap)**  
-
-  **SOAP client and server for Node.js**, MIT licensed with **2,963 GitHub stars** . **WSDL-based client and server generation** . **Active maintenance** with regular updates . **Best for Node.js SOAP integrations**.
-
-
-
-### Go SOAP SDKs
-
-
-
-- **[soap-go](https://github.com/way-platform/soap-go)**  
-
-  **Go SDK and CLI tool for SOAP web services**, MIT licensed . **SOAP 1.1, WSDL 1.1, and XSD 1.0 support** . **Code generation from WSDL files** with CLI tool for gen, doc, and call operations . **SOAP envelope primitives** with header and body manipulation . **Best for Go SOAP integrations**.
-
-
-
-### Rust SOAP Clients
-
-
-
-- **[rsoap](https://github.com/ouertani/rsoap)**  
-
-  **Rust SOAP client with compile-time WSDL code generation**, MIT licensed . **Typed request/response structs** generated from WSDL at compile time . **SOAP 1.1 and 1.2 support** with auto-detection from WSDL binding . **WS-Security transport binding (mTLS)** via optional Cargo feature . **Fault detection on any HTTP status** . **Best for Rust SOAP integrations**.
-
-
-
-### PHP SOAP Extensions
-
-
-
-- **[BeSimpleSoap](https://github.com/natlibfi/besimple-soap)**  
-
-  **PHP SOAP client and server extensions**, open-source . **Extends native PHP SoapClient and SoapServer** with SwA, MTOM, and WS-Security . **WS-Addressing support** . **Components**: SoapClient, SoapServer, SoapCommon, SoapWsdl . **Best for PHP SOAP services**.
-
-
-
-### Scala SOAP
-
-
-
-- **[Play SOAP](https://github.com/playframework/play-soap)**  
-
-  **SOAP support for Play Framework**, Apache-2.0 licensed with **35 GitHub stars** . **Scala-based SOAP client and server** . **Active development** (last pushed June 2025) . **Best for Scala/Play Framework SOAP services**.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Apache Rampart/C** — WS-Security implementation for Axis2/C .
-
-- **Apache Sandesha2/C** — WS-ReliableMessaging for Axis2/C .
-
-- **Apache Savan/C** — WS-Eventing for Axis2/C .
-
-- **Python Zeep examples** — WSDL inspection and typed client generation .
-
-- **gSOAP wsdl2h** — WSDL/XSD to C/C++ translator .
-
-- **gSOAP soapcpp2** — Code generator for services and XML data bindings .
-
-
-
-**Frameworks for building custom SOAP web services**: Combine **Apache CXF** for enterprise-grade WS-* support with JAX-WS and JAX-RS frontends . Use **Spring Web Services** for contract-first SOAP development with Spring Security integration . Deploy **Zeep** for Python SOAP client development with WSDL introspection . Choose **gSOAP** for high-performance C/C++ SOAP services . Integrate **node-soap** for Node.js SOAP client and server implementations . Use **soap-go** for Go-based SOAP integrations . Choose **rsoap** for Rust SOAP clients with compile-time type safety . Note that true enterprise SOAP APIs with managed infrastructure, carrier-grade reliability, and vendor-supported SLAs (Salesforce SOAP API, FedEx Web Services, SAP NetWeaver) remain primarily commercial territory; open-source stacks provide strong SOAP protocol implementations, WSDL tooling, and WS-* standards support that require integration for complete SOAP web services.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- SOAP web services handle sensitive enterprise data and may involve WS-Security obligations. Self-hosted implementations require proper security hardening, XML security configuration (XXE prevention, XML bomb protection), and compliance with enterprise security policies.
-
-- **SOAP remains critical for enterprise integration** — financial messaging (ISO 20022), logistics (FedEx/UPS), and ERP (SAP/NetSuite) still rely heavily on SOAP .
-
-- **License considerations**: Apache CXF uses Apache-2.0 , Spring Web Services uses Apache-2.0 , Zeep uses MIT , gSOAP is commercial with open-source availability , and node-soap uses MIT . Verify licensing against your use case before committing.
-
-- **Security is paramount** — WS-Security, XML encryption, and XML signature are essential for production SOAP services. Never expose SOAP endpoints without proper authentication and encryption .
-
-- The open-source ecosystem provides strong SOAP protocol implementations, WSDL tooling, and WS-* standards support, but **managed infrastructure, carrier-grade reliability, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+*Focused on SOAP Protocol Implementation, WSDL Code Generation, WS-Security & Self-Hosted Web Service Frameworks*
 
 ---
 
+## 🔍 Overview & SEO Highlights
 
+SOAP (Simple Object Access Protocol) remains the backbone of mission-critical enterprise systems across financial services, global logistics, telecom, healthcare, and ERP suites. Unlike REST and GraphQL, SOAP provides formal WSDL (Web Services Description Language) contracts, built-in WS-Security standards, ACID transaction guarantees, and reliable messaging.
 
-**Made for integration engineers, enterprise architects, and organizations seeking SOAP web services sovereignty.**  
+This repository indexes the top commercial SOAP API endpoints and open-source SOAP frameworks available across major programming languages (Java, Python, C/C++, Node.js, Go, Rust, PHP, Scala).
 
-Let's make SOAP web services more open, transparent, and interoperable.
+---
+
+## 📋 Table of Contents
+
+- [🏢 SaaS & Hosted Enterprise Platforms](#-saas--hosted-enterprise-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer & Security Guidelines](#%EF%B8%8F-disclaimer--security-guidelines)
+- [⭐ Star History](#-star-history)
+- [💖 Support](#-support)
+
+---
+
+## 🏢 SaaS & Hosted Enterprise Platforms
+
+📊 **Market Intelligence**: The global Enterprise API & Integration Middleware market is estimated at **$18.4 Billion in 2026** (growing at a 14.2% CAGR). The market is **moderately concentrated** among enterprise CRM and ERP giants (Salesforce, SAP, Oracle NetSuite) while remaining mission-critical for high-volume transactional domains such as banking, shipping, and travel distribution.
+
+The following table lists leading enterprise SaaS platforms offering SOAP web service APIs, sorted by **Company Size / Revenue / Valuation** (descending):
+
+| 🏢 Platform / Service | 📝 Description | 💰 Starting Price | 🎁 Free Tier / Trial Limit | 📊 Company Size / Rev / Valuation |
+| :--- | :--- | :--- | :--- | :--- |
+| **[UPS Developer Kit](https://developer.ups.com/)** | SOAP API for shipping, rate calculation, package tracking, and address validation. | Pay-as-you-go postage rates (no API access fee) | Free Developer Portal account with unlimited sandbox test API requests | **$91.0B Revenue** / $110B Valuation |
+| **[FedEx Web Services](https://developer.fedex.com/)** | SOAP-based logistics API for shipping labels, pickup scheduling, and freight tracking. | Pay-as-you-go shipping rates (no API subscription fee) | Free FedEx Developer Portal account with sandbox meter keys | **$88.0B Revenue** / $65B Valuation |
+| **[NetSuite SuiteTalk](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/)** | Oracle NetSuite's SOAP web service for full ERP/CRM record access and integration. | $999/mo base license + $99/user/month | 30-day guided interactive demo sandbox environment | **$50.0B Parent Rev** / $25B NetSuite Valuation |
+| **[Salesforce SOAP API](https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm)** | Enterprise metadata access, CRUD operations, and WSDL client generation. | Enterprise Edition at $165/user/month (includes API) | Free Developer Edition (lifetime, 5MB data, 15,000 API calls/day) | **$34.8B Revenue** / $280B Valuation |
+| **[SAP NetWeaver SOAP](https://help.sap.com/)** | SAP's enterprise web service stack for SAP ERP / S/4HANA integration. | SAP Business One Cloud starting at $135/user/month | 14-day SAP BTP free trial with 30+ core service credits | **$34.1B Revenue** / $250B Valuation |
+| **[PayPal SOAP API](https://developer.paypal.com/)** | Legacy merchant SOAP API for payment processing, recurring billing, and payouts. | 2.9% + $0.30 per standard transaction | Free developer sandbox account with unlimited test API calls | **$29.8B Revenue** / $70B Valuation |
+| **[eBay SOAP API](https://developer.ebay.com/)** | Merchant SOAP API for marketplace listing management, orders, and seller tools. | 13.25% + $0.30 final value fee per sale (0 API fees) | Free Developer Program with 5,000 call/day limit (up to 1.5M/day) | **$10.1B Revenue** / $30B Valuation |
+| **[Workday SOAP API](https://community.workday.com/)** | Workday HCM & Financials SOAP web services for payroll and HR integration. | ~$100/employee/year enterprise contract pricing | 30-day partner sandbox environment upon enterprise agreement | **$7.3B Revenue** / $65B Valuation |
+| **[Amadeus SOAP API](https://developers.amadeus.com/)** | Global Distribution System (GDS) SOAP API for flight search and ticketing. | €0.0025 per booking transaction + enterprise setup | Self-Service Free Tier (2,000 test calls/month, no credit card required) | **$5.8B Revenue** / $25B Valuation |
+| **[Sabre Web Services](https://developer.sabre.com/)** | Travel booking, flight availability, and reservation management SOAP APIs. | $0.02 - $0.05 per query / transaction-based model | 90-day Developer Studio trial with 10,000 sandbox API calls | **$2.9B Revenue** / $1.5B Valuation |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The following list contains top open-source SOAP client libraries, server engines, testing tools, and WSDL generators, sorted by **GitHub Stars** (descending). Each star badge links directly to the repo's stargazers page:
+
+1. 🧰 **[SoapUI](https://github.com/SoapUI/soapui)**  
+   [![GitHub stars](https://img.shields.io/github/stars/SoapUI/soapui?style=social&color=white)](https://github.com/SoapUI/soapui/stargazers)  
+   **The world's leading open-source functional testing tool for SOAP and REST APIs**. Features WSDL inspection, automated test suite creation, mock services, and WS-Security compliance testing. Best for enterprise API testing and debugging.
+
+2. ⚡ **[node-soap](https://github.com/vpulim/node-soap)**  
+   [![GitHub stars](https://img.shields.io/github/stars/vpulim/node-soap?style=social&color=white)](https://github.com/vpulim/node-soap/stargazers)  
+   **Popular SOAP client and server implementation for Node.js**. Provides WSDL parsing, client code generation, and easy server endpoint deployment with asynchronous handlers. Best for Node.js / JavaScript SOAP integrations.
+
+3. 🐍 **[Zeep](https://github.com/mvantellingen/python-zeep)**  
+   [![GitHub stars](https://img.shields.io/github/stars/mvantellingen/python-zeep?style=social&color=white)](https://github.com/mvantellingen/python-zeep/stargazers)  
+   **Modern and fast Python SOAP client built on lxml and requests**. Features full WSDL 1.1 introspection, XML data type mapping, WS-Addressing, WSSE (UsernameToken/X.509), and asyncio support via httpx. Best for Python 3 SOAP applications.
+
+4. ☕ **[Apache CXF](https://github.com/apache/cxf)**  
+   [![GitHub stars](https://img.shields.io/github/stars/apache/cxf?style=social&color=white)](https://github.com/apache/cxf/stargazers)  
+   **The premier open-source Java services framework**. Complete implementation of WS-* standards including WS-Security, WS-Addressing, WS-ReliableMessaging, and WS-Policy. Supports JAX-WS and JAX-RS contract-first development. Best for enterprise Java SOAP architectures.
+
+5. 🍃 **[Spring Web Services](https://github.com/spring-projects/spring-ws)**  
+   [![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-ws?style=social&color=white)](https://github.com/spring-projects/spring-ws/stargazers)  
+   **Contract-first SOAP service framework tailored for the Spring ecosystem**. Focuses on document-driven web services, flexible XML mapping (JAXB, XStream), and seamless WS-Security integration via Spring Security. Best for Spring Boot SOAP web services.
+
+6. 🐘 **[wsdl2phpgenerator](https://github.com/wsdl2phpgenerator/wsdl2phpgenerator)**  
+   [![GitHub stars](https://img.shields.io/github/stars/wsdl2phpgenerator/wsdl2phpgenerator?style=social&color=white)](https://github.com/wsdl2phpgenerator/wsdl2phpgenerator/stargazers)  
+   **PHP CLI utility and library for generating structured PHP classes from WSDL files**. Converts complex WSDL types into type-hinted PHP code, wrapping native `SoapClient` for clean object-oriented access. Best for PHP SOAP development.
+
+7. ⚙️ **[gSOAP](https://github.com/Genivia/gsoap)**  
+   [![GitHub stars](https://img.shields.io/github/stars/Genivia/gsoap?style=social&color=white)](https://github.com/Genivia/gsoap/stargazers)  
+   **High-performance C/C++ XML and SOAP Web Services toolkit**. Includes `wsdl2h` and `soapcpp2` generators to bind C/C++ structures directly to WSDL/XSD definitions with ultra-low footprint. Best for embedded and high-speed C/C++ SOAP engines.
+
+8. ☕ **[Apache Axis2 (Java)](https://github.com/apache/axis2-java)**  
+   [![GitHub stars](https://img.shields.io/github/stars/apache/axis2-java?style=social&color=white)](https://github.com/apache/axis2-java/stargazers)  
+   **Modular core SOAP 1.1/1.2 processing engine**. Features AXIOM (AXis Object Model) for optimized memory handling, hot-deployment of web service archives (AAR), and asynchronous message exchange patterns. Best for high-throughput Java SOAP servers.
+
+9. 🐍 **[PySimpleSOAP](https://github.com/pysimplesoap/pysimplesoap)**  
+   [![GitHub stars](https://img.shields.io/github/stars/pysimplesoap/pysimplesoap?style=social&color=white)](https://github.com/pysimplesoap/pysimplesoap/stargazers)  
+   **Lightweight, pure-Python SOAP client and server library**. Designed for maximum simplicity without heavy external C dependencies. Supports WSDL generation and client dynamic calls. Best for lightweight Python microservices.
+
+10. 🐹 **[soap-go](https://github.com/way-platform/soap-go)**  
+    [![GitHub stars](https://img.shields.io/github/stars/way-platform/soap-go?style=social&color=white)](https://github.com/way-platform/soap-go/stargazers)  
+    **Go SDK and CLI tool for SOAP web services**. Provides Go code generation from WSDL specs, XML envelope marshaling/unmarshaling, and header manipulation for modern Go backend services. Best for Go SOAP integrations.
+
+11. 🔴 **[Play SOAP](https://github.com/playframework/play-soap)**  
+    [![GitHub stars](https://img.shields.io/github/stars/playframework/play-soap?style=social&color=white)](https://github.com/playframework/play-soap/stargazers)  
+    **SOAP integration plugin for the Play Framework (Scala/Java)**. Enables compile-time code generation from WSDL specifications into non-blocking Play reactive client calls. Best for Scala Play web applications.
+
+12. 🦀 **[rsoap](https://github.com/ouertani/rsoap)**  
+    [![GitHub stars](https://img.shields.io/github/stars/ouertani/rsoap?style=social&color=white)](https://github.com/ouertani/rsoap/stargazers)  
+    **Rust SOAP client library with compile-time WSDL code generation**. Converts WSDL types into strongly-typed Rust structs using macro introspection with mTLS security support. Best for high-reliability Rust services.
+
+13. 🔧 **[Apache Axis2/C](https://github.com/apache/axis2-c)**  
+    [![GitHub stars](https://img.shields.io/github/stars/apache/axis2-c?style=social&color=white)](https://github.com/apache/axis2-c/stargazers)  
+    **C-language implementation of the Axis2 web services architecture**. Supports SOAP 1.1/1.2, MTOM binary attachments, WS-Addressing, and WS-Security for legacy system integration. Best for legacy C/C++ embedded systems.
+
+14. 🐘 **[BeSimpleSoap](https://github.com/natlibfi/besimple-soap)**  
+    [![GitHub stars](https://img.shields.io/github/stars/natlibfi/besimple-soap?style=social&color=white)](https://github.com/natlibfi/besimple-soap/stargazers)  
+    **Advanced PHP SOAP extensions**. Extends PHP's native `SoapClient` and `SoapServer` classes to support MTOM attachments, SOAP with Attachments (SwA), and WS-Security signatures. Best for enterprise PHP SOAP backends.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions! To add a new SOAP platform, client framework, or WSDL tool:
+
+1. 🍴 Fork this repository.
+2. 📝 Add or update entries in `README.md` following our existing format.
+3. 🔗 Ensure all links lead directly to official documentation or valid GitHub repositories.
+4. 📬 Submit a Pull Request with a short summary of changes.
+
+---
+
+## ⚠️ Disclaimer & Security Guidelines
+
+- **Community Curated**: This repository is a community-maintained resource list and does not constitute an endorsement.
+- **XML Security Hardening**: SOAP services process complex XML structures. Production deployments MUST implement proper protection against XXE (XML External Entity) injection, XML entity expansion bombs, and schema poisoning.
+- **WS-Security & Transport Security**: Never expose unencrypted SOAP endpoints over HTTP. Use TLS 1.3, WS-Security signatures, and WS-SE Header validation for production environments.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/sv?repos=ishandutta2007/Awesome-Soap-Web-Services-API&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Soap-Web-Services-API&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for visiting this repository! If you find this curated list of SOAP APIs, WSDL tools, and frameworks helpful, please consider **starring ⭐️**, **forking 🍴**, and **sharing 📢** it with fellow integration engineers and developers.
+
+If you would like to support the ongoing maintenance of this project, you can sponsor me on GitHub:
+
+<a href="https://github.com/sponsors/ishandutta2007">
+  <img src="https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+</a>
+
+---
+
+<p align="center">
+  <i>Curated with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> for integration engineers, solution architects, and enterprise backend developers worldwide.</i>
+</p>
