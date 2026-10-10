@@ -56,62 +56,62 @@ The following table lists leading enterprise SaaS platforms offering SOAP web se
 
 ## 🔓 Open-Source GitHub Projects
 
-The following list contains top open-source SOAP client libraries, server engines, testing tools, and WSDL generators, sorted by **GitHub Stars** (descending). Each star badge links directly to the repo's stargazers page:
+The following list contains top open-source SOAP client libraries, server engines, testing tools, and WSDL generators, sorted by **GitHub_Stars** (descending). Each Stars_Badge links directly to the repo's stargazers page:
 
 1. 🧰 **[SoapUI](https://github.com/SoapUI/soapui)**  
-   [![GitHub stars](https://img.shields.io/github/stars/SoapUI/soapui?style=social&color=white)](https://github.com/SoapUI/soapui/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/SoapUI/soapui?style=social&color=white)](https://github.com/SoapUI/soapui/stargazers)  
    **The world's leading open-source functional testing tool for SOAP and REST APIs**. Features WSDL inspection, automated test suite creation, mock services, and WS-Security compliance testing. Best for enterprise API testing and debugging.
 
 2. ⚡ **[node-soap](https://github.com/vpulim/node-soap)**  
-   [![GitHub stars](https://img.shields.io/github/stars/vpulim/node-soap?style=social&color=white)](https://github.com/vpulim/node-soap/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/vpulim/node-soap?style=social&color=white)](https://github.com/vpulim/node-soap/stargazers)  
    **Popular SOAP client and server implementation for Node.js**. Provides WSDL parsing, client code generation, and easy server endpoint deployment with asynchronous handlers. Best for Node.js / JavaScript SOAP integrations.
 
 3. 🐍 **[Zeep](https://github.com/mvantellingen/python-zeep)**  
-   [![GitHub stars](https://img.shields.io/github/stars/mvantellingen/python-zeep?style=social&color=white)](https://github.com/mvantellingen/python-zeep/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/mvantellingen/python-zeep?style=social&color=white)](https://github.com/mvantellingen/python-zeep/stargazers)  
    **Modern and fast Python SOAP client built on lxml and requests**. Features full WSDL 1.1 introspection, XML data type mapping, WS-Addressing, WSSE (UsernameToken/X.509), and asyncio support via httpx. Best for Python 3 SOAP applications.
 
 4. ☕ **[Apache CXF](https://github.com/apache/cxf)**  
-   [![GitHub stars](https://img.shields.io/github/stars/apache/cxf?style=social&color=white)](https://github.com/apache/cxf/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/apache/cxf?style=social&color=white)](https://github.com/apache/cxf/stargazers)  
    **The premier open-source Java services framework**. Complete implementation of WS-* standards including WS-Security, WS-Addressing, WS-ReliableMessaging, and WS-Policy. Supports JAX-WS and JAX-RS contract-first development. Best for enterprise Java SOAP architectures.
 
 5. 🍃 **[Spring Web Services](https://github.com/spring-projects/spring-ws)**  
-   [![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-ws?style=social&color=white)](https://github.com/spring-projects/spring-ws/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/spring-projects/spring-ws?style=social&color=white)](https://github.com/spring-projects/spring-ws/stargazers)  
    **Contract-first SOAP service framework tailored for the Spring ecosystem**. Focuses on document-driven web services, flexible XML mapping (JAXB, XStream), and seamless WS-Security integration via Spring Security. Best for Spring Boot SOAP web services.
 
 6. 🐘 **[wsdl2phpgenerator](https://github.com/wsdl2phpgenerator/wsdl2phpgenerator)**  
-   [![GitHub stars](https://img.shields.io/github/stars/wsdl2phpgenerator/wsdl2phpgenerator?style=social&color=white)](https://github.com/wsdl2phpgenerator/wsdl2phpgenerator/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/wsdl2phpgenerator/wsdl2phpgenerator?style=social&color=white)](https://github.com/wsdl2phpgenerator/wsdl2phpgenerator/stargazers)  
    **PHP CLI utility and library for generating structured PHP classes from WSDL files**. Converts complex WSDL types into type-hinted PHP code, wrapping native `SoapClient` for clean object-oriented access. Best for PHP SOAP development.
 
 7. ⚙️ **[gSOAP](https://github.com/Genivia/gsoap)**  
-   [![GitHub stars](https://img.shields.io/github/stars/Genivia/gsoap?style=social&color=white)](https://github.com/Genivia/gsoap/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/Genivia/gsoap?style=social&color=white)](https://github.com/Genivia/gsoap/stargazers)  
    **High-performance C/C++ XML and SOAP Web Services toolkit**. Includes `wsdl2h` and `soapcpp2` generators to bind C/C++ structures directly to WSDL/XSD definitions with ultra-low footprint. Best for embedded and high-speed C/C++ SOAP engines.
 
 8. ☕ **[Apache Axis2 (Java)](https://github.com/apache/axis2-java)**  
-   [![GitHub stars](https://img.shields.io/github/stars/apache/axis2-java?style=social&color=white)](https://github.com/apache/axis2-java/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/apache/axis2-java?style=social&color=white)](https://github.com/apache/axis2-java/stargazers)  
    **Modular core SOAP 1.1/1.2 processing engine**. Features AXIOM (AXis Object Model) for optimized memory handling, hot-deployment of web service archives (AAR), and asynchronous message exchange patterns. Best for high-throughput Java SOAP servers.
 
 9. 🐍 **[PySimpleSOAP](https://github.com/pysimplesoap/pysimplesoap)**  
-   [![GitHub stars](https://img.shields.io/github/stars/pysimplesoap/pysimplesoap?style=social&color=white)](https://github.com/pysimplesoap/pysimplesoap/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/pysimplesoap/pysimplesoap?style=social&color=white)](https://github.com/pysimplesoap/pysimplesoap/stargazers)  
    **Lightweight, pure-Python SOAP client and server library**. Designed for maximum simplicity without heavy external C dependencies. Supports WSDL generation and client dynamic calls. Best for lightweight Python microservices.
 
 10. 🐹 **[soap-go](https://github.com/way-platform/soap-go)**  
-    [![GitHub stars](https://img.shields.io/github/stars/way-platform/soap-go?style=social&color=white)](https://github.com/way-platform/soap-go/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/way-platform/soap-go?style=social&color=white)](https://github.com/way-platform/soap-go/stargazers)  
     **Go SDK and CLI tool for SOAP web services**. Provides Go code generation from WSDL specs, XML envelope marshaling/unmarshaling, and header manipulation for modern Go backend services. Best for Go SOAP integrations.
 
 11. 🔴 **[Play SOAP](https://github.com/playframework/play-soap)**  
-    [![GitHub stars](https://img.shields.io/github/stars/playframework/play-soap?style=social&color=white)](https://github.com/playframework/play-soap/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/playframework/play-soap?style=social&color=white)](https://github.com/playframework/play-soap/stargazers)  
     **SOAP integration plugin for the Play Framework (Scala/Java)**. Enables compile-time code generation from WSDL specifications into non-blocking Play reactive client calls. Best for Scala Play web applications.
 
 12. 🦀 **[rsoap](https://github.com/ouertani/rsoap)**  
-    [![GitHub stars](https://img.shields.io/github/stars/ouertani/rsoap?style=social&color=white)](https://github.com/ouertani/rsoap/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/ouertani/rsoap?style=social&color=white)](https://github.com/ouertani/rsoap/stargazers)  
     **Rust SOAP client library with compile-time WSDL code generation**. Converts WSDL types into strongly-typed Rust structs using macro introspection with mTLS security support. Best for high-reliability Rust services.
 
 13. 🔧 **[Apache Axis2/C](https://github.com/apache/axis2-c)**  
-    [![GitHub stars](https://img.shields.io/github/stars/apache/axis2-c?style=social&color=white)](https://github.com/apache/axis2-c/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/apache/axis2-c?style=social&color=white)](https://github.com/apache/axis2-c/stargazers)  
     **C-language implementation of the Axis2 web services architecture**. Supports SOAP 1.1/1.2, MTOM binary attachments, WS-Addressing, and WS-Security for legacy system integration. Best for legacy C/C++ embedded systems.
 
 14. 🐘 **[BeSimpleSoap](https://github.com/natlibfi/besimple-soap)**  
-    [![GitHub stars](https://img.shields.io/github/stars/natlibfi/besimple-soap?style=social&color=white)](https://github.com/natlibfi/besimple-soap/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/natlibfi/besimple-soap?style=social&color=white)](https://github.com/natlibfi/besimple-soap/stargazers)  
     **Advanced PHP SOAP extensions**. Extends PHP's native `SoapClient` and `SoapServer` classes to support MTOM attachments, SOAP with Attachments (SwA), and WS-Security signatures. Best for enterprise PHP SOAP backends.
 
 ---
